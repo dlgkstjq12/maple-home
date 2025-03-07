@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- site metas -->
+      <title>개발자 이한섭의 이력서 페이지</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/favicon.png" type="image/png">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <body>
+      <!--header section start -->
+      <div class="header_section">
+        <div class="costum_header">
+           <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+           <div class="small_menu">
+              <ul>
+                 <li onclick="moveSections(0)"><a class = "">【Top】</a></li>
+                 <li onclick="moveSections(1)"><a>【Skill】</a></li>
+                 <li onclick="moveSections(2)"><a>【Information】</a></li>
+                 <li onclick="moveSections(3)"><a>【Statement】</a></li>
+                 <li onclick="moveSections(4)"><a>【Projects】</a></li>
+                 <li onclick="moveSections(5)"><a>【Profile】</a></li>
+              </ul>
+           </div>
+           <div class="toggle-div">
+               <img class="toggle-icon" src="images/toggle-icon.png" onclick="toggleVisibility()">
+           </div>
+           <!-- Header_mobile-navigation-menus -->
+           <nav id="toDiv" class="Header_mobile-navigation-menus">
+              <ul>
+                   <li onclick="mobileMoveSection(0)"><a class="mobile-navigation">【Top】</a></li>
+              </ul>
+              <ul>
+                   <li onclick="mobileMoveSection(1)"><a class="mobile-navigation">【Skill】</a></li>
+              </ul>
+              <ul>
+                   <li onclick="mobileMoveSection(2)"><a class="mobile-navigation">【Information】</a></li>
+              </ul>
+              <ul>
+                    <li onclick="mobileMoveSection(3)"><a class="mobile-navigation">【Statement】</a></li>
+              </ul>
+              <ul>
+                    <li onclick="mobileMoveSection(4)"><a class="mobile-navigation">【Projects】</a></li>
+              </ul>
+              <ul>
+                    <li onclick="mobileMoveSection(5)"><a class="mobile-navigation">【Profile】</a></li>
+              </ul>
+           </nav>
+        </div>
+      </div>
+      <!-- header section end -->
+      
+      <!-- banner section start -->
+      <div id="section1" class="services_section">
+          <div class="hero-container">
+              <h1 class="banner_taital"><span class="name-custom-font">- 이한섭 -<br> 웹 / 백엔드 <br> 개발자 포트폴리오 <br> </span><span class="information-custom-font">발전을 이끌어갈 <br> 인재입니다.</span></h1>
+         </div>
+      </div>
+      <!-- banner section end -->
+      <div class="arrow-container">
+         <div class="arrow" onclick="moveStep(-1)">&#8593;</div>
+         <div class="arrow" onclick="moveStep(1)">&#8595;</div>
+      </div>
+      <!-- services section start -->
+
+      <div id="section2" class="services_section layout_padding">
+         <div class="container">
+            <h1 class="services_taital">보유 기술</span></h1>
+            <br>
+            <div class="image-container">
+                <img src="images/eGovFrame-img.png" alt="Image 1">
+                <img src="images/git-img.png" alt="Image 2">
+                <img src="images/java-img.png" alt="Image 3">
+                <img src="images/Javascript-img.jpg" alt="Image 4">
+                
+                <img src="images/Jquery-img.png" alt="Image 5">
+                <img src="images/JSP-img.png" alt="Image 6">
+                <img src="images/MySQL-img.png" alt="Image 7">
+                <img src="images/Oracle-img.png" alt="Image 8">
+            
+                <img src="images/springBoot-img.jpg" alt="Image 9">
+                <img src="images/spring-img.png" alt="Image 10">
+                <img src="images/svn-img.png" alt="Image 11">
+                <img src="images/Websquare-img.jpg" alt="Image 12">
+            </div>
+         </div>
+      </div>
+      
+      <!-- providing section start -->
+      <div id="section2" class="services_section layout_padding">
+         <div class="container">
+            <h1 class="information_taital">경력 (총 4년 6개월)</h1>
+         </div>
+      </div>
+      <div class="services_section_2 layout_padding">
+        <div class="container">
+        <table>
+           <tr>
+             <th scope="col">년 / 월</th>
+             <th scope="col">회사명</th>
+             <th scope="col">직급</th>
+             <th scope="col">직무</th>
+           </tr>
+           <tr>
+             <td>2024. 11 ~ 2024. 12 <br>(2개월)</td>
+             <td>상상브레이커스</td>
+             <td>과장</td>
+             <td>웹/백엔드 개발</td>
+           </tr>
+           <tr>
+             <td>2021. 05 ~ 2024. 07 <br>(3년 3개월)</td>
+             <td>아이캔매니지먼트</td>
+             <td>과장</td>
+             <td>분석/설계/웹/백엔드 개발</td>
+           </tr>
+           <tr>
+             <td>2020. 04 ~ 2021. 04 <br>(1년 1개월)</td>
+             <td>이노시스컴퍼니</td>
+             <td>사원</td>
+             <td>분석/설계/웹/백엔드 개발</td>
+           </tr>
+          </table>
+        </div>
+      </div>
+      
+      <div class="services_section layout_padding">
+        <h1 class="information_taital">학력</h1>
+        <div class="container">
+            <table>
+               <tr>
+                 <th scope="col">년 / 월</td>
+                 <th scope="col">학력사항</td>
+               </tr>
+               <tr>
+                 <td>2020. 06 ~ 2022. 02</td>
+                 <td>학점은행제 (컴퓨터공학과)</td>
+               </tr>
+               <tr>
+                 <td>2011. 03 ~ 2015. 02</td>
+                 <td>유한대학 (기계과)</td>
+               </tr>
+            </table>
+        </div>
+      </div>
+      
+      <div class="services_section layout_padding">
+         <div class="container">
+            <h1 class="information_taital">자격증</h1>
+         </div>
+      </div>
+      <div class="services_section_2 layout_padding">
+        <div class="container">
+            <table>
+               <tr>
+                 <th scope="col">취득일</td>
+                 <th scope="col">자격증명</td>
+                 <th scope="col">발급기관</td>
+               </tr>
+               <tr>
+                 <td>2019. 05</td>
+                 <td>정보처리기사</td>
+                 <td>한국산업인력공단</td>
+               </tr>
+               <tr>
+                 <td>2015. 11</td>
+                 <td>산업안전산업기사</td>
+                 <td>한국산업인력공단</td>
+               </tr>
+             </table>
+        </div>
+      </div>
+      <!-- providing section end -->
+      
+      <!-- providing section start -->
+      <div id="section3" class="services_section layout_padding">
+         <div class="container">
+            <h1 class="services_taital"><span style="color: rgb(0, 0, 0)">자기소개서</span>
+              <!-- 이미지 태그 -->
+              <a id="downloadLink" href="pdf/자기소개서_이한섭_250307.pdf" target="_blank" download="pdf/이력서_20250219.pdf">
+                  <img src="images/download-img.png" alt="클릭하여 PDF 다운로드">
+              </a>
+            </h1>
+         </div>
+      </div>
+     
+      <!-- providing section start -->
+      <div class="services_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[미래를 생각하고 노력하는 개발자]</h1>
+         </div>
+      </div>
+      <div class="providing_section_1">
+        <div class="container">
+            <div class="person_text">
+                여러가지 프로젝트를 하면서, Java, JavaScript, Jquary, Websquare5, PostgreSQL, Oracle, 전자정부 프레임워크 등을 사용하면서 
+                회사의 이익에 이바지하기위해 노력했었고, 현재는 Spring Boot쪽을 공부하면서,                                             
+                실무쪽에서 부족한 부분을 매우기위해 노력하고 있습니다.                                                                  
+                이외에 귀사에서 필요로 하는 기술이나 스킬이 있다면, <br>
+                추가적으로 공부를 해서 회사의 이익에도 이바지하고, 제 미래에도 도움이 될 수 있도록 노력할려고 합니다.
+            </div> 
+        </div>
+      </div>
+      
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[경험치가 있는 개발자]</h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text">
+                저의 경력은 총 5년차이고, 주로 Java를 사용한 Spring 프로젝트를 사용해서 작업했었고,   가장 오래있었던 프로젝트에서는 Excel에 구현된 VBScript를 웹 플랫폼으로 변환해서 구현하는 
+                보험료 계산 플랫폼에서, 프로젝트 개발 -≫ 고도화 -≫ 운영 단계까지 참여해서, 프로젝트를 끝까지 이끌어본 경험이 있습니다.  
+            </div>
+        </div> 
+      </div>
+      
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[협업이 잘되는 개발자]</h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text">
+                보험료 계산 플랫폼 개발 프로젝트를 하면서, 현업과 데이터 정합성 관련 갈등을 겪은 경험이 있었는데, 결국에는 소통이 핵심이었습니다.                                          
+                고객이 말하는 제안사항과 요구사항을 명확히 정리하고, 그것을 토대로 개발하면서 중간중간에 소통을 잘해서, 프로젝트를 성공적으로 마친 경험이 있습니다. 
+            </div>
+        </div> 
+      </div>
+      
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[성장과정 및 학교생활]</h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text">
+                어렸을때 부터 저는 컴퓨터에 대해 관심이 많이 있었지만, 기계쪽 일을 하시는 아버지의 추천으로 인해서 공대로 들어가 기계과에 입학을 하게 되었습니다.     
+                하지만 용접이나 기계를 다루는 것들이 저에게 잘 맞지 않아서, 졸업을 한 후에도 이런 저런 고민을 하다 안전관리쪽에                                
+                그 당시 유망하다고 생각된 안전관리 쪽에 눈을 돌려서 자격증을 취득하고, 건설업 쪽에 취직을 하게 되었습니다.                               
+                월급은 기계쪽 일을 하던 제 또래들보다 많이 받았었지만, 생명이 위험하기도 하고, 전망도 불투명해서                                     
+                제가 하고싶던 일인 프로그래밍쪽으로 발을 돌리게 되었습니다.                                                                   
+            </div>
+        </div> 
+      </div>
+
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[성격의 장단점]</h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text">
+                제 성격의 장점으로는 성실함과 책임감 입니다.                                                                                           
+                어렸을때부터 학교다니면서 지각을 하거나 결석을 한 적이 없고, 맡은 일을 뛰어나게 잘하진 못하더라도, 해낼려고 노력하는 모습이 많이 보인 다는 얘기를 많이 들었습니다.   
+                귀사에 입사해서도 처음에는 회사에 시스템에 적응해야하기 때문에 배울점들이 많이 있겠지만, 그러한 점들을 빨리 익히고, 적응해서                              
+                회사에 이익을 가져다줄 수 있도록 노력하겠습니다.                                                                                     
+                그리고 장점이면서 단점도 될 수 있을거 같은데 저는 공과 사를 구분하는 성격이라서, 일할 때랑 평상시의 모습이 다르다는                                      
+                소리를 많이 들었습니다. 이러한 저의 성격이 일할 때 책임감을 좀 더 가지게 해주는 장점이 되는것 같습니다.                                                
+            </div>
+        </div> 
+      </div>
+      
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[회사의 미래에 도움이 되는 개발자]</h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text">
+                저의 학습능력과 협업 능력, 그리고 프로젝트를 통해서 얻은 여러가지 성공과 실패 경험을 해본 개발자로 소개드리고 싶고,
+                이런 경험들을 통해서 귀사의 이익에 공헌할 수 있다고 생각합니다.
+            </div>
+        </div> 
+      </div>
+      <!-- providing section end -->
+
+      <!-- providing section start -->
+      <div id="section3" class="services_section layout_padding">
+         <div class="container">
+            <h1 class="services_taital"><span style="color: rgb(0, 0, 0)">경력기술서</span>
+              <!-- 이미지 태그 -->
+              <a id="downloadLink" href="pdf/경력 및 경력기술서_이한섭_250307.pdf" target="_blank" download="pdf/이력서_20250219.pdf">
+                  <img src="images/download-img.png" alt="클릭하여 PDF 다운로드">
+              </a>
+            </h1>
+         </div>
+      </div>
+      
+      <!-- providing section start -->
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[보험회사 보험료 계산 플랫폼 구축] <br> (개발 / 고도화 / 운영) <br> (2021.07 ~ 2024.07)</h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text layout_padding">
+                <h1 class="services_small_title">1. [프로젝트 내용]</h1>
+                <h1 class="services_small_contents">- 엑셀(VBA)로 만들어진 보험료 계산관련 소스를 웹으로  변환해야 되는프로젝트</h1>
+                <br>
+                <h1 class="services_small_title">2. [개발 주요 사항]</h1>
+                <h1 class="services_small_contents">- WebSphere 관련 컴포넌트 및 API 분석, 일정 수립, WBS 수립, 데이터 분석 화면들 개발</h1>
+                <br>
+                <h1 class="services_small_title">3. [개발후 개선 사항]</h1>
+                <h1 class="services_small_contents">- 기존 excel을 사용하던 때에 비해서 업무 효율성 증가</h1>
+                <h1 class="services_small_contents">- 실적에 관한 인터페이스 구성이 가능해지므로써, 업무에 대한 정확도가 증가됨</h1>
+            </div>
+        </div>
+      </div>
+      
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[삼성닷컴 쇼핑몰 관련 개선사항 프로젝트] <br> (2020.11 ~ 2021.04) </h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text layout_padding">
+                <h1 class="services_small_title">1. [프로젝트 내용]</h1>
+                <h1 class="services_small_contents">- 쇼핑몰 플랫폼을 운영하는 데에 필요한 개선건들을 취합해서, 요건별로 개발</h1>
+                <br>
+                <h1 class="services_small_title">2. [개발 주요 사항]</h1>
+                <h1 class="services_small_contents">- B2B에 매장픽업 상품 주문 가능하도록 개발, 재고 관리 인터페이스를 연동해서 매장픽업 관련, 상품들과 주문시스템을 연동</h1>
+                <br>
+                <h1 class="services_small_title">3. [개발후 개선 사항]</h1>
+                <h1 class="services_small_contents">- 인증코드를 관리하는 관리자 페이지 구현, 유지보수 및 관리의 용이함을 얻어서, 실질적인 업무에 투자하는시간을 단축</h1>
+            </div>
+        </div>
+      </div>
+
+      <div class="providing_section layout_padding">
+         <div class="container">
+            <h1 class="services_title">[화성 시청 통합예약 시스템 개발] <br> (2020.05 ~ 2020.10)</h1>
+         </div>
+      </div>
+      <div class="providing_section_1 layout_padding">
+        <div class="container">
+            <div class="person_text layout_padding">
+                <h1 class="services_small_title">1. [프로젝트 내용]</h1>
+                <h1 class="services_small_contents">- 시에서 운영하는 통합예약 시스템 및 관리자 시스템 구축, 단체 접수 기능 및 사용자, 기능별 마이페이지 개발, MyBatis 오라클로 데이터 관리 요구</h1>
+                <br>
+                <h1 class="services_small_title">2. [개발 주요 사항]</h1>
+                <h1 class="services_small_contents">- 전자정부프레임워크, Apache-tomcat 8 버전을 이용한 controller, service, serviceImpl, VO,Mapper(XML) 개발</h1>
+                <h1 class="services_small_contents">- Mybatis를 이용한 XML개발 및 동적 쿼리 작성</h1>
+                <h1 class="services_small_contents">- jquery-Ajax를 이용한 다양한 처리 방식 개발</h1>
+                <br>
+                <h1 class="services_small_title">3. [개발후 개선 사항]</h1>
+                <h1 class="services_small_contents">- 기존에 수기로 작성하던 업무들을 사이트에서 할 수 있게 되다보니, 업무 시간이 단축</h1>
+                <h1 class="services_small_contents">- 일관된 업무수행이 가능해짐 ,관리자 페이지를 만듦으로써 대부분의 페이지관리를 그 쪽에서 하게 되므로, 유지보수 및 관리의 용이함을 얻음</h1>
+            </div>
+        </div>
+      </div>
+      <!-- providing section end -->
+
+      <!-- testimonial section start -->
+      <div id="section4" class="testimonial_section layout_padding">
+         <div class="container">
+            <h1 class="testimonial_taital">개인 프로필</h1>
+            <div class="testimonial_section_2">
+               <div id="my_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="testimonial_box">
+                           <div class="tectimonial_mail">
+                              <div class="client_image_section">
+                                 <img src="images/client-img.jpg">
+                              </div>
+                              <div class="client_text_section">
+                                 <p class="testimonial_text">미래를 준비하고 발전할 수 있는 프로그래머</p>
+                                 <h4 class="joech_text">Han Sub Lee</h4>
+                                 <h4 class="joech_text">(2020.04 ~ 2024.12)</h4>
+                                 <h4 class="joech_text">(경력 4년 6개월)</h4>
+                                 <p class="customer_text">전화번호 : 010-7285-1455</p>
+                                 <p class="customer_text">이메일 : dlgkstjq623@naver.com</p>
+                                 <p class="customer_text">주소 : 인천광역시 남동구 만수동 만수서로 105번길 40-18</p>
+                                 <p class="customer_text">직무 : BackEnd, Web Programmer</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- testimonial section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <h2 class="useful_text">Contact Me</h2>
+                  <div class="location_text"><img src="images/map-icon1.png"><a href="#"><span class="padding_left_15">인천광역시 남동구 만수동 <br> 만수서로 105번길 40-18</span></a></div>
+                  <div class="location_text"><img src="images/call-icon1.png"><a href="#"><span class="padding_left_15">010-7285-1455</span></a></div>
+                  <div class="location_text"><img src="images/mail-icon1.png"><a href="#"><span class="padding_left_15">dlgkstjq623@naver.com</span></a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">Copyright 2024 All Rights Reserved. Design by<a href="https://html.design"></a></p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         //화면 로딩시 실행
+         $(document).ready(function(){
+            //스크롤바 셋팅
+            allowSet();
+            
+            //페이지 로딩시 애니메이션
+            loadingSet();
+         });
+         
+         //스크롤바 셋팅
+         function allowSet(){
+            $(".fancybox").fancybox({
+               openEffect: "none",
+               closeEffect: "none"
+            });
+            $(".zoom").hover(function(){
+               $(this).addClass('transition');
+               }, function(){
+                  $(this).removeClass('transition');
+               });
+         }
+
+         //페이지 로딩시 에니메이션
+         function loadingSet(){
+            document.getElementById("section1").classList.add("slide-down");
+            document.getElementById("section1").classList.add("slide-down");
+         }
+         
+         function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+         }
+         
+         function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+         }
+
+         //화살표 이벤트
+         let sections = document.querySelectorAll('[id^="section"]');
+         let currentIndex = 0;
+
+         function moveStep(direction) {
+            currentIndex += direction;
+            if (currentIndex < 0) currentIndex = 0;
+            if (currentIndex >= sections.length) currentIndex = sections.length - 1;
+            sections[currentIndex].scrollIntoView({ behavior: 'smooth' });
+         }
+         
+         function moveSections(direction) {
+            sections[direction].scrollIntoView({ behavior: 'smooth' });
+         }
+         
+         function mobileMoveSection(direction){
+            sections[direction].scrollIntoView({ behavior: 'smooth' });
+            toggleVisibility();
+         }
+		 
+         //모바일에서 메뉴아이콘 클릭시 실행
+         function toggleVisibility(){
+            const div = document.getElementById("toDiv");
+            const costumHeader = document.getElementsByClassName("costum_header");
+            const MAIN_MEUM_NUM = 0;
+            
+            // 현재 display 스타일 확인
+            if (window.getComputedStyle(div).display === "none") {
+                div.style.display = "block";
+                costumHeader[MAIN_MEUM_NUM].style.height = "10rem";
+            } else {
+                div.style.display = "none";
+                costumHeader[MAIN_MEUM_NUM].style.height = "3rem";
+            }
+         }
+         
+      </script>   
+   </body>
+</html>
