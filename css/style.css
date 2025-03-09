@@ -5,6 +5,10 @@ html {
 
 body {
    background-image: url('../images/background.jpg'); /* 배경 이미지 설정 */
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
 }
 
 /* 모바일 전용 스마트폰 */
@@ -59,7 +63,7 @@ body {
 
 .name-custom-font {
     font-size: 2.2rem;
-    color : "rgb(255, 0, 128)";
+    color : black;
     font-family: 'MaplestoryOTFBold';
 }
 
@@ -75,9 +79,10 @@ body {
     top: 2rem;
     width: 20%;
     height: 90%;
-    margin-left:2rem;
+    margin-left:3rem;
     padding-left: 2rem;
-    border: 0.5rem solid turquoise; /* 청록색 테두리 */
+    border: 1rem outset turquoise; /* 청록색 테두리 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .right-fiexd-div {
@@ -86,9 +91,10 @@ body {
     top: 2rem;
     width: 20%;
     height: 90%;
-    margin-right:2rem;
-    padding-right: 5rem;
-    border: 0.5rem solid turquoise; /* 청록색 테두리 */
+    margin-right:3rem;
+    padding-right: 2rem;
+    border: 1rem outset turquoise; /* 청록색 테두리 */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
 }
 
 .left-fiexd-input {
